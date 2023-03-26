@@ -1,0 +1,29 @@
+.header {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 15vh;
+    align-items: center;
+    background-color: blue;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+}
+
+.menu-item {
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header img {
+    width: 8vw;
+    height: 8vh;
+    display: flex;
+    margin-right: 40vw;
+    margin-left: 4vw;
+}
