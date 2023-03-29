@@ -2,6 +2,7 @@
     width: 80%;
     height: auto;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .slick-slide img {
@@ -16,4 +17,9 @@
 
 .slick-dots li button:before {
     color: black;
+}
+
+.carousel img {
+    width: 320px;
+    height: 220px;
 }

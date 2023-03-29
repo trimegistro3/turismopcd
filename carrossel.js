@@ -4,10 +4,13 @@ $(document).ready(function() {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true, // autoplay habilitado
         autoplaySpeed: 2000,
+
         responsive: [{
                 breakpoint: 1024,
                 settings: {
