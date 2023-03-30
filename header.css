@@ -1,13 +1,16 @@
 .header {
     z-index: 1;
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100vw;
-    height: 15vh;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    background-color: blue;
-    align-items: center;
-    justify-content: start;
+    background-color: #03738c;
+    color: white;
+    padding: 10px 50px;
+}
+
+.menu {
     display: flex;
 }
 

@@ -1,0 +1,246 @@
+.carsTurs{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+
+.flex{
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid #000; */
+    margin: 15px;
+}
+
+
+img{
+    width: 280px;
+    height: 220px;
+    max-width: 100%;
+    display: block;
+}
+
+.flex-title{
+    text-align: center;
+    color: #2994f2;
+}
+
+
+
+
+/* CSS JANELAS MODAL */
+
+
+.btn{
+    color: #000000;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    z-index: 1;
+}
+
+.btn:hover{
+    background-color: #2994f27c;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: medium;
+    transition: 0.5s;
+}
+
+/* JANELA MODAL COM ABERTURA DA FOTO */
+.modal-1{
+    width: 100vw;
+    height: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgba(5, 5, 5, 0.486);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal{
+    width: 60%;
+    min-width: 450px;
+    min-height: 200px;
+    background-color: #ffffff9f;
+
+    /* EFEITO VIDRO, PARA PARECER TRANSPARENTE */
+    backdrop-filter: blur(10px);
+
+    padding: 50px;
+    border-radius: 20px;
+}
+
+/* BOTAO DE FECHAR A JANELA MODAL */
+.fechar{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0;
+    background-color: red;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-1.abrir{
+    display: flex;
+}
+
+@keyframes abrirModal {
+    from{
+        opacity: 0;
+        transform: translate3d(0, -50px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+.abrir .modal{
+    animation: abrirModal 0.5s;
+}
+
+
+/* JANELA MODAL 2 */
+/* -------------- */
+
+
+
+
+/* JANELA MODAL COM ABERTURA DA FOTO */
+.modal-2{
+    width: 100vw;
+    height: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgba(5, 5, 5, 0.486);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal2{
+    width: 60%;
+    min-width: 450px;
+    min-height: 200px;
+    background-color: #ffffff9f;
+
+    /* EFEITO VIDRO, PARA PARECER TRANSPARENTE */
+    backdrop-filter: blur(10px);
+
+    padding: 50px;
+    border-radius: 20px;
+}
+
+/* BOTAO DE FECHAR A JANELA MODAL */
+.fechar2{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0;
+    background-color: red;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-2.abrir2{
+    display: flex;
+}
+
+@keyframes abrirModal2 {
+    from{
+        opacity: 0;
+        transform: translate3d(0, -50px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+.abrir2 .modal2{
+    animation: abrirModal2 0.5s;
+}
+
+
+/* JANELA MODAL 2 */
+/* -------------- */
+
+
+
+/* JANELA MODAL COM ABERTURA DA FOTO */
+.modal-3{
+    width: 100vw;
+    height: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgba(5, 5, 5, 0.486);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal3{
+    width: 60%;
+    min-width: 450px;
+    min-height: 200px;
+    background-color: #ffffff9f;
+
+    /* EFEITO VIDRO, PARA PARECER TRANSPARENTE */
+    backdrop-filter: blur(10px);
+
+    padding: 50px;
+    border-radius: 20px;
+}
+
+/* BOTAO DE FECHAR A JANELA MODAL */
+.fechar3{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0;
+    background-color: red;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-3.abrir3{
+    display: flex;
+}
+
+@keyframes abrirModal3 {
+    from{
+        opacity: 0;
+        transform: translate3d(0, -50px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+.abrir3 .modal3{
+    animation: abrirModal2 0.5s;
+}
