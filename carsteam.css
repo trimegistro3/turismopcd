@@ -1,31 +1,62 @@
 /************************************** CARS-OURS ********************************/
-
 .wrapper_content{
-    margin-top: 6.5em;
- }
+   width: 100%;
+   background-image: url(./assets/img/Section\ 8.png);
+   height: auto;
 
- .wrapper {
+   /* Inside auto layout */
 
-    background: #f5f5f5;
-    width: 100%;
+   flex: none;
+   order: 4;
+   align-self: stretch;
+   flex-grow: 0;
+
+}
+ 
+.wrapper {   
     text-align: center;
+    padding: 6em 0 6em 0;
  }
 
- .wrapper h1 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size:  3em;
-    color: rgb(82, 76, 76);
-    margin-bottom: 0.5em;
+ .wrapper .wrapper_text h1  {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.0929px;
+    line-height: 32px;
+    
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FFA90F;
+    
+    /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
 
  }
 
- .wrapper p {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size:  1.5em;
-    color: rgb(82, 76, 76);
-    margin: 1em 8em;
-    line-height: 1.25em;
- }
+ .wrapper .wrapper_text h2{
+   font-family: 'Volkhov';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 58.5915px;
+   line-height: 76px;
+   padding: 0.2em 0 1em 0;
+   /* identical to box height */
+
+   color: #0E2651;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   }
 
  .wrapper .our_team {
     display: flex;
@@ -33,20 +64,11 @@
     justify-content: center;
  }
 
- .wrapper .our_team .team_member {
-    width: 12em;
-    margin: 1em;
-    box-shadow: 0 0 2.2em rgba(25, 0, 58, 0.15);
-    border-radius: 0.6em;
-    background-color: #fff;
-    padding: 1em 0.5em;
- }
-
  .wrapper .our_team .team_member .member_img {
     background: #e9e5fa;
-    width: 10em;
-    height: auto;
-    margin: 0 auto 1em auto;
+    width: 7em;
+    height: 7em;
+    margin: 1em ;
     border-radius: 50%;
     padding: 0.5em;
     cursor: pointer;
@@ -54,23 +76,62 @@
  }
 
  .wrapper .our_team .team_member .member_img img {
-    width: 100%;
-    border-radius: 50%;
+    
+   width: 7em;
+   height: 7em;
+
+   /* sombra cards */
+   filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   border-radius: 50%;
  }
 
  .wrapper .our_team .team_member h3 {
-    text-transform: uppercase;
-    color: rgb(82, 76, 76);
-    font-size: 1em;
-    font-family: Helvetica, Arial, sans-serif;
-    line-height: 1em;
-    letter-spacing: 0;
-    margin: 1em 0 0;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 12.6169px;
+   line-height: 20px;
+   /* identical to box height, or 156% */
+   
+   font-feature-settings: 'liga' off;
+   
+   color: #2D2D2D;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
  }
 
  .wrapper .our_team .team_member p {
-    font-size: 0.5em;
- }
+   
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 17px;
+   /* identical to box height, or 171% */
+
+   font-feature-settings: 'liga' off;
+
+   color: #2D2D2D;
+
+   opacity: 0.7;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;;
+   }
 
  .wrapper .our_team .team_member .social_media {
     position: absolute;
