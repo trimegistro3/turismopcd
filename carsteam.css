@@ -1,8 +1,9 @@
 /************************************** CARS-OURS ********************************/
-.wrapper_content{
+.wrapper_container{
    width: 100%;
-   background-image: url(./assets/img/Section\ 8.png);
    height: auto;
+   background-image: url(./assets/img/Section\ 8.png);
+   
 
    /* Inside auto layout */
 
