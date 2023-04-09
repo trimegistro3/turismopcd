@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+.home {
+    background-image: url(img/background1.png)
+}
+
+.home {
+    height: 100vh;
+    width: 100vw;
+}
+
+#topo1 {
+    color: #DF6951;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo_home h1 {
+    color: #0E2651;
+    font-size: 84px;
+    font-weight: bold;
+    font-family: 'Volkhov', serif;
+}
+
+.titulo_desenho img {
+    width: 385px;
+    height: 12px;
+    margin-left: 330px;
+}
+
+.titulo_home {
+    display: inline-block;
+}
+
+.titulo_a {
+    display: inline-block;
+}
+
+.titulo_desenho {
+    display: block;
+}
+
+.titulo1 {
+    display: inline;
+}
+
+.conteudo_home {
+    width: 748px;
+    height: 150px;
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.875;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+.topo {
+    padding: 60px 200px;
+}
+
+.titulo_home {
+    padding-left: 200px;
+}

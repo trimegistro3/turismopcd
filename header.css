@@ -1,31 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 .header {
     z-index: 1;
     position: sticky;
     top: 0;
-    display: flex;
-    justify-content: space-between;
+    width: 100vw;
+    display: inline-flex;
     align-items: center;
     background-color: #03738c;
-    color: white;
-    padding: 10px 50px;
+    padding: 20px 50px;
 }
 
-.menu {
-    display: flex;
+.header.menu {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 .menu-item {
-    display: inline-flex;
     color: white;
     text-decoration: none;
-    font-size: 14px;
-    padding: 20px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.header.menu.menu-item {
+    position: relative;
+    display: inline-block;
+    justify-content: flex-end;
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    display: flex;
+}
+
+.header img {
+    width: 68px;
+    height: 68px;
+    display: flex;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.titulo_logo {
+    color: #2d2d2d;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+.logotipo {
+    align-items: center;
+    display: inline-block;
+}
+
+.menu {
+    justify-content: flex-end;
 }
 
 @media only screen and (max-width: 600px) {
