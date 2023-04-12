@@ -24,6 +24,7 @@
     <!--Style-->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="carrossel.css">
     <link rel="stylesheet" href="carstur.css">
     <link rel="stylesheet" href="carsteam.css">
@@ -51,6 +52,154 @@
         
     </div>
     <main>
+        <section class="home">
+            <div class="topo">
+                <p id="topo1"> planeje suas viagens de maneira inclusiva </p>
+            </div>
+            <div class="titulo_home">
+                <div class="titulo1">
+
+
+                    <div class="titulo_desenho">
+                        <div class="titulo_b">
+                            <h1 id="titulo_b">Turismo Acessível:</h1>
+                        </div>
+                        <div class="img_titulo">
+                            <img src="img/Sublinhado.png" alt="detalhe titulo">
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div class="titulo3">
+                    <h1 id="titulo3"> viaje sem limites</h1>
+                </div>
+
+            </div>
+            <div class="conteudo_home">
+                <p>Acreditamos que viajar deve ser uma experiência enriquecedora e acessível para todas as pessoas, independentemente de suas limitações físicas, sensoriais ou mentais. Nosso objetivo é fornecer informações úteis e práticas para ajudá-lo(a)
+                    a planejar suas viagens de forma segura e confortável.</p>
+            </div>
+
+
+
+        </section>
+        <section class="slider">
+            <div class="titulo_inclusao">
+                <h2 class="inclusao">INCLUSÃO</h2>
+            </div>
+            <div class="titulo_slider">
+
+                <h1 class="atividade ">Atividades para todos</h1>
+            </div>
+            <div class="carousel">
+                <div><img src="img\pcd1.jpg" alt=""></div>
+                <div><img src="img\pcd2.jpg" alt=""></div>
+                <div><img src="img\pcd7.jpg" alt=""></div>
+                <div><img src="img\pcd6.jpg" alt=""></div>
+                <div><img src="img\pcd8.jpg" alt=""></div>
+                <div><img src="img\pcd11.jpg" alt=""></div>
+                <div><img src="img\pcd14.jpg" alt=""></div>
+                <div><img src="img\pcd13.jpg" alt=""></div>
+            </div>
+        </section>
+        <section class="video"></section>
+        <section class="carsTurs">
+
+            <div class="flex">
+                <img src="img/Praia-Para-Todos-no-Rio-de-Janeiro.jpg" alt="">
+                <h2 class="flex-title">RIO DE JANEIRO</h2>
+                <p>O mais conhecido é o projeto Praia Para Todos que acontece apenas nos meses mais quentes do Rio (dezembro a abril).</p>
+
+                <!-- DIVI PARA ABRIR A JANELA MODAL -->
+                <div onclick="abrirModal()" class="btn">LEIA MAIS...</div>
+            </div>
+
+            <div class="flex">
+                <img src="img/foz-do-iguacu.jpg" alt="">
+                <h2 class="flex-title">FOZ DO IGUAÇU</h2>
+                <p>Por lá, é relativamente fácil encontrar vagas demarcadas, rampas nos estacionamentos, e piso tátil nas principais vias. Além disso, os ônibus do transporte público contam com elevadores e a maioria dos pontos turísticos são adaptados ou
+                    estão em processo.</p>
+
+                <!-- DIVI PARA ABRIR A JANELA MODAL -->
+                <div onclick="abrirModal2()" class="btn">LEIA MAIS...</div>
+            </div>
+
+            <div class="flex">
+                <img src="img/brotas-acessibilidade.jpg" alt="">
+                <h2 class="flex-title">BROTAS-SP</h2>
+                <p>Além disso, os parques de aventura da cidade vem cada vez mais investindo em acessibilidade para incluir a todos nos roteiros de ecoturismo.</p>
+
+                <!-- DIVI PARA ABRIR A JANELA MODAL -->
+                <div onclick="abrirModal3()" class="btn">LEIA MAIS...</div>
+            </div>
+
+            <!-- JANELAS MODAL -->
+
+            <!-- JANELA MODAL 1 -->
+
+            <div>
+
+                <div class="modal-1" id="modal-1">
+                    <div class="modal">
+                        <button class="fechar" id="fechar">X</button>
+                        <h1>RIO DE JANEIRO</h1>
+                        <img src="img/Praia-Para-Todos-no-Rio-de-Janeiro.jpg" alt="" style="width: 650px; height: 300px;">
+
+                        <p>O mais conhecido é o projeto Praia Para Todos que acontece apenas nos meses mais quentes do Rio (dezembro a abril).</p>
+
+                        <p>O projeto conta com esteira de acesso, cadeiras anfíbias e mais atividades como surfe e vôlei sentado, além de stand-up paddle e handbike em Copacabana.</p>
+
+                        <p>O Praia Para Todos funciona aos sábado e domingos das 09 às 14h na Praia da Barra – Posto 3 (em frente à praça do Ó); Praia de Copacabana – Posto 6 (em frente à rua Júlio de Castilhos); e na Praia do Leblon – Posto 11 – Quiosque
+                            do Riba (em frente à rua Afrânio de Mello Franco).</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- JANELA MODAL 2 -->
+
+            <div>
+
+
+                <div class="modal-2" id="modal-2">
+                    <div class="modal2">
+                        <button class="fechar2" id="fechar2">X</button>
+                        <h1>FOZ DO IGUAÇU</h1>
+                        <img src="img/foz-do-iguacu.jpg" alt="" style="width: 650px; height: 300px;">
+                        <p>A cidade, por receber milhões de turistas todos anos vindo de diversos lugares do mundo para conhecer as Cataratas do Iguaçu, procura sempre desenvolver sua acessibilidade.</p>
+
+                        <p>Por lá, é relativamente fácil encontrar vagas demarcadas, rampas nos estacionamentos, e piso tátil nas principais vias. Além disso, os ônibus do transporte público contam com elevadores e a maioria dos pontos turísticos são adaptados
+                            ou estão em processo.</p>
+
+                        <p>As próprias Cataratas do Iguaçu se destacam no quesito acessibilidade, e é um passeio obrigatório quando estiver por lá. Conheça também a Trilha do Poço Preto, o Macuco Safari (precisa avisar no guichê, no momento da compra das
+                            entradas, que você precisa do transporte adaptado) e o Espaço Naipi.
+                        </p>
+
+                        <p>Aqui você pode conferir mais dicas de destinos acessíveis no Brasil.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- JANELA MODAL 3 -->
+            <div>
+
+
+                <div class="modal-3" id="modal-3">
+                    <div class="modal3">
+                        <button class="fechar3" id="fechar3">X</button>
+                        <h1>BROTAS</h1>
+                        <img src="img/brotas.png" alt="" style="width: 650px; height: 300px;">
+                        <p>Se você é aventureiro, Brotas precisa entrar no seu roteiro, afinal a cidade é conhecida como a capital nacional do turismo de aventura!</p>
+
+                        <p>Além disso, os parques de aventura da cidade vem cada vez mais investindo em acessibilidade para incluir a todos nos roteiros de ecoturismo.</p>
+
+                        <p>Por fim, vários são os parques da cidade que contam com trilhas e cachoeiras adaptadas para receber pessoas com mobilidade reduzida, além de agências especializadas em receber visitantes com mobilidade reduzida.</p>
+                    </div>
+                </div>
+        </section>
 
         <!--DICAS-->
         <section class="dicas_container">
