@@ -58,7 +58,7 @@
 }
 
 .menu {
-    justify-content: flex-end;
+    margin-left: 25%;
 }
 
 @media only screen and (max-width: 600px) {
