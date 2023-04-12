@@ -32,7 +32,6 @@
     justify-content: flex-end;
 }
 
-<<<<<<< HEAD
 .logo {
     display: flex;
 }
@@ -60,13 +59,5 @@
 
 .menu {
     margin-left: 25%;
-=======
-.header img {
-    width: 8vw;
-    height: 8vh;
-    display: flex;
-    margin-right: 40vw;
-    margin-left: 4vw;
->>>>>>> rina
 }
 
