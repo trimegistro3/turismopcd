@@ -1,15 +1,11 @@
 .dicas_container {
 
     width: 100%;
-    height: 48em;
+    height: auto;
     background-image: url(./assets/img/Section\ 6.png);
-       /* Inside auto layout */
+    padding-top: 10em;
 
-   flex: none;
-   order: 4;
-   align-self: stretch;
-   flex-grow: 0;
-
+   
 
 }
 
